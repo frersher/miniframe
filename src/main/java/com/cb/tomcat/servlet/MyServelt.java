@@ -13,7 +13,7 @@ public abstract class MyServelt {
       if ("GET".equalsIgnoreCase(request.getMethod())) {
         doGet(request, response);
       } else {
-        doPost(request, response);
+         doPost(request, response);
       }
     }
 
